@@ -12,7 +12,7 @@ jobs:
     strategy:
       matrix:
         os:
-          - ubuntu-latest
+          - ubuntu-slim
           - macos-latest
     runs-on: ${{ matrix.os }}
     steps:
